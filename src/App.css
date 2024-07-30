@@ -1,0 +1,44 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: white;
+}
+
+main{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.container{
+  border: 1px solid black;
+  height: 800px;
+  width: 800px;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.box{
+  position: absolute;
+  top:0;
+  left:0;
+  background-color: hotpink;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.circle{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: blue;
+  height: 120px;
+  width: 120px;
+  cursor: pointer;
+  border-radius: 50%;
+}
